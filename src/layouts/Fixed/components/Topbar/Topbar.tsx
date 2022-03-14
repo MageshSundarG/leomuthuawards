@@ -27,7 +27,7 @@ const Topbar = ({ onSidebarOpen }: Props): JSX.Element => {
         display={'flex'}
         component={'a'}
         href="/"
-        title="theFront"
+        title="Sairam Institutions"
         width={{ xs: 100, md: 120 }}
       >
         <Box

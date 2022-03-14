@@ -27,20 +27,22 @@ const Kalam = (): JSX.Element => {
         sx={{
           fontWeight: 700,
           textTransform: 'uppercase',
-          color: theme.palette.secondary.dark
+          /*color: theme.palette.secondary.dark*/
+          color: theme.palette.common.white
         }}
       >
         Dr A.P.J Abdul Kalam
       </Typography>
       <br></br>
       <Typography
-        variant="h5"
+        variant="h3"
         color={theme.palette.secondary.dark}
         align={'center'}
         sx={{
           fontWeight: 500,
           fontStyle: 'italic',
-          color: theme.palette.secondary.dark
+          /*color: theme.palette.secondary.dark*/
+          color: theme.palette.common.white
         }}
       >
         "Education is the most powerful Weapon,<br />which you can use to change the world"

@@ -24,7 +24,7 @@ const Footer = (): JSX.Element => {
             display={'flex'}
             component="a"
             href="/"
-            title="theFront"
+            title=""
             width={80}
           >
             <Box

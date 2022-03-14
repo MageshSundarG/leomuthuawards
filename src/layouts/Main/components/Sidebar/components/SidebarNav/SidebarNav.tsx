@@ -36,7 +36,7 @@ const SidebarNav = ({ pages }: Props): JSX.Element => {
           display={'flex'}
           component="a"
           href="/"
-          title="theFront"
+          title=""
           width={{ xs: 100, md: 120 }}
         >
           <Box

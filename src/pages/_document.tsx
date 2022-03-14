@@ -25,7 +25,8 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content="#ffffff" />
           <meta
             name="description"
-            content="A modern design system for your new landing and web pages."
+            content="Recognizing and honouring the best schools & academicians of Tamilnadu."
+
           />
           <meta
             name="robots"
@@ -34,20 +35,12 @@ export default class MyDocument extends Document {
           <meta property="og:locale" content="en_US" />
           <meta property="og:type" content="website" />
           <meta
-            property="og:image"
-            content="https://assets.maccarianagency.com/screenshots/the-front/social.png"
-          />
-          <meta
             property="og:title"
-            content="theFront | UI Kit by Maccarian Agency."
+            content="Kalam-LeoMuthu Educational Awards 2022"
           />
           <meta
             property="og:description"
-            content="A modern design system for your new landing and web pages."
-          />
-          <meta
-            property="og:url"
-            content="https://thefront.maccarianagency.com/"
+            content="Recognizing and honouring the best schools & academicians of Tamilnadu."
           />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
