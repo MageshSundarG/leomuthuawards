@@ -47,6 +47,7 @@ const SimpleStriped = (): JSX.Element => {
                   variant={'caption'}
                   fontWeight={700}
                   sx={{ textTransform: 'uppercase' }}
+                  color='primary'
                 >
                   Important Dates
                 </Typography>
@@ -56,6 +57,7 @@ const SimpleStriped = (): JSX.Element => {
                   variant={'caption'}
                   fontWeight={700}
                   sx={{ textTransform: 'uppercase' }}
+                  color='primary'
                 >
                   Process
                 </Typography>
