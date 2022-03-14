@@ -24,22 +24,22 @@ const Footer = (): JSX.Element => {
             display={'flex'}
             component="a"
             href="/"
-            title="theFront"
+            title="Sairam Institutions"
             width={80}
           >
             <Box
               component={'img'}
               src={
                 mode === 'light'
-                  ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                  : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+                  ? 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/sairam_institutions_blue.svg'
+                  : 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/sairam_institutions_white.svg'
               }
               height={1}
               width={1}
             />
           </Box>
           <Box display="flex" flexWrap={'wrap'} alignItems={'center'}>
-            <Box marginTop={1} marginRight={2}>
+            {/* <Box marginTop={1} marginRight={2}>
               <Link
                 underline="none"
                 component="a"
@@ -49,7 +49,7 @@ const Footer = (): JSX.Element => {
               >
                 Home
               </Link>
-            </Box>
+            </Box> */}
             <Box marginTop={1} marginRight={2}>
               <Link
                 underline="none"
@@ -58,7 +58,7 @@ const Footer = (): JSX.Element => {
                 color="text.primary"
                 variant={'subtitle2'}
               >
-                Documentation
+                Terms
               </Link>
             </Box>
             <Box marginTop={1}>
@@ -70,7 +70,7 @@ const Footer = (): JSX.Element => {
                 href="https://mui.com/store/items/the-front-landing-page/"
                 size="small"
               >
-                Purchase now
+                Register now
               </Button>
             </Box>
           </Box>
@@ -83,7 +83,7 @@ const Footer = (): JSX.Element => {
           color="text.secondary"
           gutterBottom
         >
-          &copy; theFront. 2021, Maccarian. All rights reserved
+          &copy; <a href="" >DOTS.</a> 2022, Chennai. All rights reserved
         </Typography>
         <Typography
           align={'center'}
