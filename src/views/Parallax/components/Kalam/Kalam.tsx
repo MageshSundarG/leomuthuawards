@@ -14,8 +14,8 @@ const Kalam = (): JSX.Element => {
         align={'center'}
         gutterBottom
         sx={{
-          fontWeight: 500,
-          color: theme.palette.common.white,
+          fontWeight: 600,
+          color: '#377dff'
         }}
       >
         Remembering Avul Pakir Jainulabdeen, popularly known as
@@ -27,8 +27,7 @@ const Kalam = (): JSX.Element => {
         sx={{
           fontWeight: 700,
           textTransform: 'uppercase',
-          /*color: theme.palette.secondary.dark*/
-          color: theme.palette.common.white
+          color: theme.palette.secondary.dark
         }}
       >
         Dr A.P.J Abdul Kalam
@@ -42,10 +41,10 @@ const Kalam = (): JSX.Element => {
           fontWeight: 500,
           fontStyle: 'italic',
           /*color: theme.palette.secondary.dark*/
-          color: theme.palette.common.white
+          color: 'white'
         }}
       >
-        "Education is the most powerful Weapon,<br />which you can use to change the world"
+        "Education is the most powerful Weapon,<br />which you can use to change the world ."
       </Typography>
     </Box>
   );

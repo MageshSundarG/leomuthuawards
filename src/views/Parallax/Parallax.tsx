@@ -47,7 +47,7 @@ const Agency = (): JSX.Element => {
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       backgroundImage: `url(${bgImage})`,
-      filter: theme.palette.mode === 'dark' ? 'brightness(0.7)' : 'brightness(0.7)',
+      filter: theme.palette.mode === 'dark' ? 'brightness(0.7)' : 'brightness(0.3)',
     } as const);
 
   return (
