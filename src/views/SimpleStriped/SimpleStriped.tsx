@@ -25,7 +25,7 @@ const mock = [
   },
   {
     dates: '02.04.2022',
-    process: 'Award Function Venue : Sairam College Campus',
+    process: <div>Award Function <br />Venue : Sairam College Campus</div>,
   },
 ];
 
