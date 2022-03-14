@@ -57,10 +57,10 @@ const Hero = (): JSX.Element => {
                   )} 0%)`,
                 }}
               >
-                Kalam-LeoMuthu
+                Kalam - Leo Muthu
               </Typography>
               <br />
-              Educational Awards 2022{' '}
+              Education Awards 2022{' '}
             </Typography>
             <Typography
               variant="h6"
@@ -68,7 +68,7 @@ const Hero = (): JSX.Element => {
               color={theme.palette.secondary.dark}
               sx={{ fontWeight: 400 }}
             >
-              Recognizing and honouring the best schools & academicians of
+              Recognizing and honouring the best schools & teachers of
               Tamilnadu.
             </Typography>
             <Box

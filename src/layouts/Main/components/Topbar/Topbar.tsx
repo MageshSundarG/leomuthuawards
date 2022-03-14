@@ -79,7 +79,7 @@ const Topbar = ({ pages, colorInvert = false }: Props): JSX.Element => {
                 href="/"
                 color={colorInvert ? 'common.white' : 'text.primary'}
               >
-                Terms
+                Terms & Conditions
               </Link>
             </MenuItem>
           </Box>

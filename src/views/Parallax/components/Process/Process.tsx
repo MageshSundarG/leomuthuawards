@@ -73,7 +73,7 @@ const Process = (): JSX.Element => {
           sx={{ fontWeight: 700 }}
           color={theme.palette.secondary.dark}
         >
-          Celebrating 70th Birthday of Our Founder & Chairman Shri M.J.F.Ln Leo
+          Celebrating 70th Birth Anniversary of Our Founder Chairman Shri M.J.F.Ln Leo
           Muthu on April 2nd 2022
         </Typography>
       </Box>

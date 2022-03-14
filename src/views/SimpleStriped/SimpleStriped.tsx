@@ -17,7 +17,7 @@ const mock = [
   },
   {
     dates: '28.03.2022',
-    process: 'Notification for the Recipients of Awards',
+    process: 'Notification Mail',
   },
   {
     dates: '30.03.2022',
@@ -25,7 +25,7 @@ const mock = [
   },
   {
     dates: '02.04.2022',
-    process: 'Venue : Sairam College Campus',
+    process: 'Award Function Venue : Sairam College Campus',
   },
 ];
 

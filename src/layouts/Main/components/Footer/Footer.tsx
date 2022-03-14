@@ -59,7 +59,7 @@ const Footer = (): JSX.Element => {
                 color="text.primary"
                 variant={'subtitle2'}
               >
-                Terms
+                Terms & Conditions
               </Link>
             </Box>
             <Box marginTop={1}>
