@@ -6,6 +6,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Container from 'components/Container';
+import AppRegistrationRoundedIcon from '@mui/icons-material/AppRegistrationRounded';
 
 const Hero = (): JSX.Element => {
   const theme = useTheme();
@@ -56,7 +57,7 @@ const Hero = (): JSX.Element => {
                   )} 0%)`,
                 }}
               >
-                KALAM-LeoMuthu
+                Kalam-LeoMuthu
               </Typography>
               <br />
               Educational Awards 2022{' '}
@@ -64,7 +65,7 @@ const Hero = (): JSX.Element => {
             <Typography
               variant="h6"
               component="p"
-              color="text.secondary"
+              color={theme.palette.secondary.dark}
               sx={{ fontWeight: 400 }}
             >
               Recognizing and honouring the best schools & academicians of
@@ -83,6 +84,7 @@ const Hero = (): JSX.Element => {
                 size="large"
                 fullWidth={isMd ? false : true}
                 href={'/home'}
+                startIcon={<AppRegistrationRoundedIcon />}
               >
                 Register Now
               </Button>
@@ -95,7 +97,7 @@ const Hero = (): JSX.Element => {
                   component={'a'}
                   href={'/docs/introduction'}
                   variant="outlined"
-                  color="primary"
+                  color="secondary"
                   size="large"
                   fullWidth={isMd ? false : true}
                 >

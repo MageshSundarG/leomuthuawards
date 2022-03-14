@@ -59,7 +59,7 @@ const Process = (): JSX.Element => {
         <Typography
           sx={{
             textTransform: 'uppercase',
-            fontWeight: 'medium',
+            fontWeight: 700,
           }}
           color={'primary'}
         >
@@ -69,9 +69,9 @@ const Process = (): JSX.Element => {
       <Box marginBottom={2}>
         <Typography
           component={'span'}
-          variant="h4"
+          variant="h5"
           sx={{ fontWeight: 700 }}
-          color={theme.palette.secondary.main}
+          color={theme.palette.secondary.dark}
         >
           Celebrating 70th Birthday of Our Founder & Chairman Shri M.J.F.Ln Leo
           Muthu on April 2nd 2022

@@ -16,43 +16,43 @@ import { colors, Container } from '@mui/material';
 const mock = [
   {
     media:
-      'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/leo_muthu_emblem.png',
+      'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/leo_muthu_emblem.svg',
     title: 'Leo Muthu Best School Award 2022 ',
   },
   {
-    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/kalam_emblem.png',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/kalam_emblem.svg',
     title: 'Kalam Best School Principal Award 2022',
   },
   {
-    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/ramanujam_emblem.png',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/ramanujam_emblem.svg',
     title: 'Srinivasa Ramanujan Best Mathematician Teacher  Award 2022',
   },
   {
-    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/cv_raman_emblem.png',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/cv_raman_emblem.svg',
     title: 'Sri C.V.Raman Best Physics Teacher  Award 2022',
   },
   {
-    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/pc_ray_emblem.png',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/pc_ray_emblem.svg',
     title: 'P.C.Ray Best Chemistry Teacher Award 2022',
   },
   {
-    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/charles_babbage_emblem.png',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/charles_babbage_emblem.svg',
     title: 'Charles Babbage Best Computer Science Teacher  Award 2022',
   },
   {
-    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/shakespeare_emblem.png',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/shakespeare_emblem.svg',
     title: 'Shakespeare Best English Teacher Award 2022',
   },
   {
-    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/bharathidasan_emblem.png',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/bharathidasan_emblem.svg',
     title: 'Bharathidasan Best Tamil Teacher Award 2022',
   },
   {
-    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/charles_darwin_emblem.png',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/charles_darwin_emblem.svg',
     title: 'Charles Darwin Best Zoology Teacher  Award 2022',
   },
   {
-    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/mendel_emblem.png',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/mendel_emblem.svg',
     title: 'Mendel Best Botany Teacher Merit  2022',
   },
 ];
@@ -91,6 +91,7 @@ const Spaces = (): JSX.Element => {
           <Typography
             variant="h4"
             align={'center'}
+            color={'primary'}
             data-aos={'fade-up'}
             gutterBottom
             sx={{
@@ -169,7 +170,7 @@ const Spaces = (): JSX.Element => {
                     </CardMedia>
                     <CardContent>
                       <Typography
-                        variant={'h6'}
+                        variant={'subtitle2'}
                         gutterBottom
                         align={'left'}
                         sx={{ fontWeight: 700 }}
@@ -177,10 +178,6 @@ const Spaces = (): JSX.Element => {
                         {item.title}
                       </Typography>
                     </CardContent>
-                    <Box flexGrow={1} />
-                    <CardActions sx={{ justifyContent: 'flex-end' }}>
-                      <Button>Learn more</Button>
-                    </CardActions>
                   </Box>
                 </Box>
               </Box>
