@@ -20,7 +20,7 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <link
             rel="shortcut icon"
-            href="https://assets.maccarianagency.com/favicons/thefront/favicon.ico"
+            href="https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/favicon.ico"
           />
           <meta name="theme-color" content="#ffffff" />
           <meta
@@ -29,7 +29,7 @@ export default class MyDocument extends Document {
 
           />
           <meta
-            name="robots"
+            name="Sairam Institutions"
             content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
           />
           <meta property="og:locale" content="en_US" />

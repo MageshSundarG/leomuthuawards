@@ -78,7 +78,7 @@ const Agency = (): JSX.Element => {
         alignItems={'center'}
         bgcolor={'alternate.main'}
       >
-        <Container>
+        <Container paddingY={5}>
           <Process />
         </Container>
       </Box>
@@ -98,7 +98,7 @@ const Agency = (): JSX.Element => {
             'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/kalam_parallax.jpg',
           )}
         />
-        <Container>
+        <Container paddingY={0}>
           <Kalam />
         </Container>
       </Box>
