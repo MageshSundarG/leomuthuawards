@@ -14,24 +14,37 @@ const Kalam = (): JSX.Element => {
         align={'center'}
         gutterBottom
         sx={{
-          fontWeight: 900,
+          fontWeight: 500,
           color: theme.palette.common.white,
-          textTransform: 'uppercase',
         }}
       >
-        A. P. J. Abdul Kalam
+        Remembering Avul Pakir Jainulabdeen, popularly known as
       </Typography>
-      {/* <Typography
-        variant="h6"
-        component="p"
-        color="text.primary"
+      <Typography
+        variant="h4"
+        color={theme.palette.secondary.dark}
         align={'center'}
         sx={{
-          color: theme.palette.common.white,
+          fontWeight: 700,
+          textTransform: 'uppercase',
+          color: theme.palette.secondary.dark
         }}
       >
-        Electric toothbrush, designed for you
-      </Typography> */}
+        Dr A.P.J Abdul Kalam
+      </Typography>
+      <br></br>
+      <Typography
+        variant="h5"
+        color={theme.palette.secondary.dark}
+        align={'center'}
+        sx={{
+          fontWeight: 500,
+          fontStyle: 'italic',
+          color: theme.palette.secondary.dark
+        }}
+      >
+        "Education is the most powerful Weapon,<br />which you can use to change the world"
+      </Typography>
     </Box>
   );
 };
