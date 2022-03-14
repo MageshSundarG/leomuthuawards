@@ -154,7 +154,7 @@ const Topbar = ({ pages, colorInvert = false }: Props): JSX.Element => {
             color="primary"
             component="a"
             target="blank"
-            href="#"
+            href="https://leomuthuawards.netlify.app/"
             size="large"
             startIcon={<AppRegistrationRoundedIcon />}
           >
