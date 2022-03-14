@@ -15,43 +15,44 @@ import { colors, Container } from '@mui/material';
 
 const mock = [
   {
-    media: '',
+    media:
+      'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/leo_muthu_emblem.png',
     title: 'Leo Muthu Best School Award 2022 ',
   },
   {
-    media: '',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/kalam_emblem.png',
     title: 'Kalam Best School Principal Award 2022',
   },
   {
-    media: '',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/ramanujam_emblem.png',
     title: 'Srinivasa Ramanujan Best Mathematician Teacher  Award 2022',
   },
   {
-    media: '',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/cv_raman_emblem.png',
     title: 'Sri C.V.Raman Best Physics Teacher  Award 2022',
   },
   {
-    media: '',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/pc_ray_emblem.png',
     title: 'P.C.Ray Best Chemistry Teacher Award 2022',
   },
   {
-    media: '',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/charles_babbage_emblem.png',
     title: 'Charles Babbage Best Computer Science Teacher  Award 2022',
   },
   {
-    media: '',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/shakespeare_emblem.png',
     title: 'Shakespeare Best English Teacher Award 2022',
   },
   {
-    media: '',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/bharathidasan_emblem.png',
     title: 'Bharathidasan Best Tamil Teacher Award 2022',
   },
   {
-    media: '',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/charles_darwin_emblem.png',
     title: 'Charles Darwin Best Zoology Teacher  Award 2022',
   },
   {
-    media: '',
+    media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/mendel_emblem.png',
     title: 'Mendel Best Botany Teacher Merit  2022',
   },
 ];

@@ -85,7 +85,7 @@ const Footer = (): JSX.Element => {
                   </svg>
                 }
               >
-                Conatct us
+                Register Now
               </Button>
             </Box>
           </Box>

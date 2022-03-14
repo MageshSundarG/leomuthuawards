@@ -24,10 +24,7 @@ interface Props {
   colorInvert?: boolean;
 }
 
-const Topbar = ({
-  pages,
-  colorInvert = false,
-}: Props): JSX.Element => {
+const Topbar = ({ pages, colorInvert = false }: Props): JSX.Element => {
   const theme = useTheme();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -71,21 +68,21 @@ const Topbar = ({
           width={1}
         />
       </Box>
-      <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
-        <Box>
-          <MenuItem>
-            <Link
-              underline="none"
-              component="a"
-              href="/"
-              color={colorInvert ? 'common.white' : 'text.primary'}
-            >
-              Terms
-            </Link>
-          </MenuItem>
-        </Box>
-      </Box>
       <Box display={'flex'} alignItems={'center'}>
+        <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
+          <Box>
+            <MenuItem>
+              <Link
+                underline="none"
+                component="a"
+                href="/"
+                color={colorInvert ? 'common.white' : 'text.primary'}
+              >
+                Terms
+              </Link>
+            </MenuItem>
+          </Box>
+        </Box>
         <Box
           sx={{ display: { xs: 'block', md: 'none' } }}
           alignItems={'center'}
@@ -171,7 +168,7 @@ const Topbar = ({
               </svg>
             }
           >
-            Conatct us
+            Register Now
           </Button>
         </Box>
       </Box>

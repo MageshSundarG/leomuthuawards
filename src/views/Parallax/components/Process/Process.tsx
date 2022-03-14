@@ -4,11 +4,19 @@ import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import { useTheme } from '@mui/material/styles';
 import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import Avatar from '@mui/material/Avatar';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import ListItemAvatar from '@mui/material/ListItemAvatar';
 import CardMedia from '@mui/material/CardMedia';
 import Box from '@mui/material/Box';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
+import SimpleStriped from 'views/SimpleStriped/SimpleStriped';
+import Container from 'components/Container';
 
 const mock = [
   {
@@ -45,46 +53,49 @@ const Process = (): JSX.Element => {
     setViewPortEntered(isVisible);
   };
 
+  const LeftSide = () => (
+    <Box>
+      <Box marginBottom={2}>
+        <Typography
+          sx={{
+            textTransform: 'uppercase',
+            fontWeight: 'medium',
+          }}
+          color={'primary'}
+        >
+          ABOUT THE EVENT
+        </Typography>
+      </Box>
+      <Box marginBottom={2}>
+        <Typography
+          component={'span'}
+          variant="h4"
+          sx={{ fontWeight: 700 }}
+          color={theme.palette.secondary.main}
+        >
+          Celebrating 70th Birthday of Our Founder & Chairman Shri M.J.F.Ln Leo
+          Muthu on April 2nd 2022
+        </Typography>
+      </Box>
+      <Typography variant="subtitle2" component="p" color="text.secondary">
+        A great visionary by birth and philanthropist of par excellence, our
+        revered Founder Chairman, MJF. Ln. Leo Muthu ventured into the realm of
+        providing quality education affordable to all.
+        <br />
+        The phenomenal growth has been marked by his tireless and extraordinary
+        efforts taken with the sole aim of providing quality education to the
+        middle class and lower-middle-class society. In order to remember our
+        Founder Chairman’s excellent contributions made in the Educational Field
+        and service to the society.
+      </Typography>
+    </Box>
+  );
   return (
     <Box>
       <Grid container spacing={4} direction={isMd ? 'row' : 'column-reverse'}>
         <Grid item xs={12} md={6} data-aos={isMd ? 'fade-right' : 'fade-up'}>
-          <Box marginBottom={2}>
-            <Typography variant={'h4'} sx={{ fontWeight: 700 }} gutterBottom>
-              We are a small agency of talented designers & developers.
-            </Typography>
-            <Typography color="text.secondary">
-              Unlike teams from big agencies, we will treat your project as
-              ours. We will walk you through our smooth and simple process.
-            </Typography>
-          </Box>
-          <Box>
-            <Grid container spacing={2}>
-              {mock.map((item, i) => (
-                <Grid key={i} item xs={12} md={4}>
-                  <Typography variant="h4" gutterBottom color="primary">
-                    <Box fontWeight={600}>
-                      <VisibilitySensor
-                        onChange={(isVisible) =>
-                          setViewPortVisibility(isVisible)
-                        }
-                        delayedCall
-                      >
-                        <CountUp
-                          duration={2}
-                          end={viewPortEntered ? item.title : 0}
-                          start={0}
-                          suffix={item.suffix}
-                        />
-                      </VisibilitySensor>
-                    </Box>
-                  </Typography>
-                  <Typography color="text.secondary" component="p">
-                    {item.subtitle}
-                  </Typography>
-                </Grid>
-              ))}
-            </Grid>
+          <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
+            <LeftSide />
           </Box>
         </Grid>
         <Grid
@@ -98,21 +109,25 @@ const Process = (): JSX.Element => {
             display: { xs: 'none', md: 'flex' },
           }}
         >
-          <Box component={Card} boxShadow={4} height={1} width={1}>
+          <Box height={1} width={1} component={Card} boxShadow={4}>
             <Box
-              component={CardMedia}
+              component={'iframe'}
+              title="video"
               height={1}
               width={1}
               minHeight={300}
-              image="https://assets.maccarianagency.com/backgrounds/img4.jpg"
-              sx={{
-                filter:
-                  theme.palette.mode === 'dark' ? 'brightness(0.7)' : 'none',
-              }}
+              src="https://www.youtube.com/embed/8zVf6zsrZGw"
+              frameBorder="0"
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+              boxShadow={4}
+              borderRadius={2}
             />
           </Box>
         </Grid>
       </Grid>
+      <Container paddingY={3}>
+        <SimpleStriped />
+      </Container>
     </Box>
   );
 };

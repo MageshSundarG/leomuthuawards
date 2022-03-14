@@ -8,6 +8,7 @@ export const light = {
   cardShadow: 'rgba(23, 70, 161, .11)',
   mode: 'light' as PaletteMode,
   primary: {
+    custom: '#1c64eb',
     main: '#377dff',
     light: '#467de3',
     dark: '#2f6ad9',
