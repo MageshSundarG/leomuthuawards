@@ -70,7 +70,7 @@ const Footer = (): JSX.Element => {
                 color="primary"
                 component="a"
                 target="blank"
-                href="#"
+                href="https://leomuthuawards.netlify.app/"
                 size="small"
                 startIcon={
                   <svg

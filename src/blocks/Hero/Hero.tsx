@@ -83,7 +83,7 @@ const Hero = (): JSX.Element => {
                 color="primary"
                 size="large"
                 fullWidth={isMd ? false : true}
-                href={'/home'}
+                href={'https://leomuthuawards.netlify.app/'}
                 startIcon={<AppRegistrationRoundedIcon />}
               >
                 Register Now
@@ -95,7 +95,7 @@ const Hero = (): JSX.Element => {
               >
                 <Button
                   component={'a'}
-                  href={'/docs/introduction'}
+                  href={'/nomination'}
                   variant="outlined"
                   color="secondary"
                   size="large"
