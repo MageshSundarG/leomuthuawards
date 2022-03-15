@@ -40,7 +40,7 @@ const mock = [
     description: <div>&emsp;(Note - Data and details submitted as softcopy will be considered in case of delay in receiving the hard copy)</div>,
   },
   {
-    title: <div><b>8.</b> Award winning schools and teachers shall bring minimum 10 high school and higher secondary school <br />&emsp; students to witness the technology project display.</div>,
+    title: <div><b>8.</b> Award winning schools and teachers shall bring minimum 10 high school and higher secondary school &emsp;students to witness the technology project display.</div>,
     description: '',
   },
   {

@@ -33,15 +33,15 @@ const ContactCard = (): JSX.Element => {
           contact us.
         </Typography>
         <Typography variant={'subtitle2'}>
-          <div>kalam_leomuthuawards<br />@sairam.edu.in</div>
+          <div><a href="mailto:kalam_leomuthuawards@sairam.edu.in">kalam_leomuthuawards<br />@sairam.edu.in</a></div>
           <br />
-          <div><strong>Mrs. T. Mangayarkarasi</strong> <br /> 87545 02226</div>
+          <div><strong>Mrs. T. Mangayarkarasi</strong> <br /><a href="tel:+918754502226">87545 02226</a></div>
           <br />
-          <div><strong>Dr. V. Brindha Devi</strong> <br />87545 82225</div>
+          <div><strong>Dr. V. Brindha Devi</strong> <br /><a href="tel:+918754582225">87545 82225</a></div>
           <br />
-          <div><strong>Dr. G. Prakash</strong> <br />87545 82221</div>
+          <div><strong>Dr. G. Prakash</strong> <br /><a href="tel:+918754582221">87545 82221</a></div>
           <br />
-          <div><strong>Dr. K. Renganathan</strong> <br />87545 02228</div>
+          <div><strong>Dr. K. Renganathan</strong> <br /><a href="tel:+918754502228">87545 02228</a></div>
           <br />
         </Typography>
       </Box>
