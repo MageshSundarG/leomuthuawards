@@ -25,16 +25,16 @@ const CompanyTerms = (): JSX.Element => {
                   color: theme.palette.common.white,
                 }}
               >
-                Event's Terms & privacy policy
+                Event's Terms & Conditions
               </Typography>
-              <Typography
+              {/* <Typography
                 gutterBottom
                 sx={{
                   color: theme.palette.common.white,
                 }}
               >
                 Last modified on <strong>14 March, 2022</strong>
-              </Typography>
+              </Typography> */}
             </Container>
             <Box
               component={'svg'}

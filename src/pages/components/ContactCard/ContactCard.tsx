@@ -20,7 +20,7 @@ const ContactCard = (): JSX.Element => {
           }}
           gutterBottom
         >
-          How can you contact us about this notice?
+          How can you contact us about this event?
         </Typography>
         <Typography
           variant={'body2'}
@@ -29,17 +29,20 @@ const ContactCard = (): JSX.Element => {
             marginBottom: 2,
           }}
         >
-          If you have any questions or concerns about the privacy policy please
+          If you have any questions or concerns about the terms & condtions please
           contact us.
         </Typography>
         <Typography variant={'subtitle2'}>
-          hi@maccarianagency.com
+          <div>kalam_leomuthuawards<br />@sairam.edu.in</div>
           <br />
-          via Gola 4
+          <div><strong>Mrs. T. Mangayarkarasi</strong> <br /> 87545 02226</div>
           <br />
-          Milan, Milano 20143
+          <div><strong>Dr. V. Brindha Devi</strong> <br />87545 82225</div>
           <br />
-          Italy
+          <div><strong>Dr. G. Prakash</strong> <br />87545 82221</div>
+          <br />
+          <div><strong>Dr. K. Renganathan</strong> <br />87545 02228</div>
+          <br />
         </Typography>
       </Box>
     </Box>

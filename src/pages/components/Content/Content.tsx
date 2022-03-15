@@ -5,51 +5,56 @@ import Typography from '@mui/material/Typography';
 const mock = [
   {
     title:
-      '1.	To Nominate in the Category for “Kalam - Best Principal” award minimum experience required for principal is 15 years',
+      <div><b>1.</b>	<strong>Kalam Best Principal Award</strong> - minimum 10 years of experience</div>,
     description: '',
   },
   {
     title:
-      '2.	Higher Secondary and High school teachers handling 9th std. to 12thstd. shall only apply Nominations for Best teacher award.',
+      <div><b>2.</b>	<strong>Best Teacher Award</strong> - minimum 5 years of experience for TGT and 3 years experience for PGT</div>,
+    description: <div>&emsp;(Note - Higher Secondary and High school teachers handling 9th std. to 12th std. shall only apply)</div>,
+  },
+  {
+    title:
+      <div><b>3.</b> <strong>Teachers' Nomination</strong> - One school can nominate only one teacher in each category.</div>,
     description: '',
   },
   {
     title:
-      '3.	Teachers nomination - One school can nominate only one teacher in each category',
+      <div><b>4.</b> <strong>Leo Muthu Best School</strong> - Perception, social media reviews will also be taken into account.</div>,
     description: '',
   },
   {
     title:
-      '4.	Perception, social media reviews will also be taken into account for the “Leo Muthu Best School” awards.',
+      <div><b>5.</b> Documents proof and photo proof wherever required must be uploaded.</div>,
     description: '',
   },
   {
     title:
-      '5.	Documents proof and photo proof where ever required must be uploaded.',
-    description: '',
-  },
-  {
-    title:
-      '6.	Preferably 3 hardcopies of nominations with all proof must be sent to the below address by 26.3.2022',
+      <div><b>6.</b> Teachers must attach the bonafide certificate along with the nominations.</div>,
     description:
-      'Note- Data and details submitted as softcopy will be considered in case of delay in receiving the hard copy',
+      '',
   },
   {
     title:
-      '7.	Award winning schools and teachers shall bring minimum 10 high school and higher secondary school students to witness the Technology project display.',
+      <div><b>7.</b> Preferably 3 hardcopies of nominations with all proof must be sent to the below address by <strong>25.03.2022.</strong></div>,
+    description: <div>&emsp;(Note - Data and details submitted as softcopy will be considered in case of delay in receiving the hard copy)</div>,
+  },
+  {
+    title: <div><b>8.</b> Award winning schools and teachers shall bring minimum 10 high school and higher secondary school <br />&emsp; students to witness the technology project display.</div>,
     description: '',
   },
   {
-    title: '8.	Incomplete nominations will not be considered.',
-    description: '',
-  },
-  {
-    title: '9.	Jury(s) decision for the award is final',
+    title: <div><b>9.</b> Incomplete nominations will not be considered.</div>,
     description: '',
   },
   {
     title:
-      '10.	Any queries you can reach the Organizers through mail and phone call.',
+      <div><b>10.</b> Jury's decision for the award is final.</div>,
+    description: '',
+  },
+  {
+    title:
+      <div><b>11.</b> For any queries you can reach the Organizers through mail and phone call.</div>,
     description: '',
   },
 ];
@@ -64,7 +69,7 @@ const PrivacySection = ({
   return (
     <Box>
       <Typography
-        variant={'h6'}
+        variant={'subtitle1'}
         gutterBottom
         sx={{
           fontWeight: 'medium',
@@ -83,7 +88,7 @@ const Content = (): JSX.Element => {
   return (
     <Box>
       {mock.map((item, i) => (
-        <Box key={i} marginBottom={i < mock.length - 1 ? 5 : 0}>
+        <Box key={i} marginBottom={i < mock.length - 1 ? 3 : 0}>
           <PrivacySection {...item} />
         </Box>
       ))}
