@@ -85,7 +85,11 @@ const Footer = (): JSX.Element => {
           color="text.secondary"
           gutterBottom
         >
-          &copy; <a href="https://linktr.ee/DOTS_Org" target="_blank" >DOTS.</a> 2022, Chennai. All rights reserved
+          &copy;{' '}
+          <a href="https://linktr.ee/DOTS_Org" target="_blank" rel="noreferrer">
+            DOTS.
+          </a>{' '}
+          2022, Chennai. All rights reserved
         </Typography>
         <Typography
           align={'center'}
