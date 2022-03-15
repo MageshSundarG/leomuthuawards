@@ -104,7 +104,7 @@ const pages = {
     },
     {
       title: 'Terms',
-      href: '/company-terms',
+      href: '/event-terms',
     },
     {
       title: 'Contact: Map',

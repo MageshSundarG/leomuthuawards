@@ -55,7 +55,7 @@ const Footer = (): JSX.Element => {
               <Link
                 underline="none"
                 component="a"
-                href="#"
+                href="/event-terms"
                 color="text.primary"
                 variant={'subtitle2'}
               >
@@ -85,7 +85,7 @@ const Footer = (): JSX.Element => {
           color="text.secondary"
           gutterBottom
         >
-          &copy; <a href="" >DOTS.</a> 2022, Chennai. All rights reserved
+          &copy; <a href="">DOTS.</a> 2022, Chennai. All rights reserved
         </Typography>
         <Typography
           align={'center'}

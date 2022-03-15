@@ -25,7 +25,7 @@ const CompanyTerms = (): JSX.Element => {
                   color: theme.palette.common.white,
                 }}
               >
-                Company terms & privacy policy
+                Event's Terms & privacy policy
               </Typography>
               <Typography
                 gutterBottom
@@ -33,7 +33,7 @@ const CompanyTerms = (): JSX.Element => {
                   color: theme.palette.common.white,
                 }}
               >
-                Last modified on <strong>23 Aug, 2021</strong>
+                Last modified on <strong>14 March, 2022</strong>
               </Typography>
             </Container>
             <Box
