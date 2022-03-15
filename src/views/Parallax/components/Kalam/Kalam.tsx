@@ -44,7 +44,7 @@ const Kalam = (): JSX.Element => {
           color: 'white'
         }}
       >
-        "Education is the most powerful Weapon,<br />which you can use to change the world ."
+        "Education is the most powerful Weapon,<br />which you can use to change the world."
       </Typography>
     </Box>
   );

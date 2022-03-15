@@ -74,8 +74,7 @@ const FeatureCardWithCtaButton = (): JSX.Element => {
               </Box>
               <Grid container spacing={1}>
                 {[
-                  'Government Higher Secondary Schools',
-                  'Government Aided Higher Secondary Schools',
+                  'Government & Aided Higher Secondary Schools',
                   'Matriculation Schools',
                   'CBSE Schools',
                   'International Schools',

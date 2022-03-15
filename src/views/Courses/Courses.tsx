@@ -25,7 +25,7 @@ const mock = [
   },
   {
     media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/ramanujam_emblem.svg',
-    title: 'Srinivasa Ramanujan Best Mathematician Teacher  Award 2022',
+    title: 'Srinivasa Ramanujan Best Maths Teacher  Award 2022',
   },
   {
     media: 'https://raw.githubusercontent.com/MageshSundarG/sairamschoolawards/main/assets/images/cv_raman_emblem.svg',
@@ -80,15 +80,16 @@ const Spaces = (): JSX.Element => {
           <Typography
             sx={{
               textTransform: 'uppercase',
-              fontWeight: 'medium',
+              fontWeight: 700, /*was medium*/
             }}
             gutterBottom
             color={'secondary'}
             align={'center'}
+            variant="h4"
           >
-            Popular Awards
+            Awards
           </Typography>
-          <Typography
+          {/* <Typography
             variant="h4"
             align={'center'}
             color={'primary'}
@@ -99,9 +100,9 @@ const Spaces = (): JSX.Element => {
             }}
           >
             Browse our Popular Awards
-          </Typography>
+          </Typography> */}
           <Box sx={{ width: '100%', justifyContent: 'center' }}>
-            <Typography
+            {/* <Typography
               variant="h6"
               align={'center'}
               color={'text.secondary'}
@@ -110,7 +111,7 @@ const Spaces = (): JSX.Element => {
               These award will enable long term relationships with schools. The
               recipients of the award in the name of our Founder Chairman will
               be a great honor for the teaching Fraternity.
-            </Typography>
+            </Typography> */}
           </Box>
         </Box>
         <Box maxWidth={{ xs: 420, sm: 620, md: 1 }} margin={'40px auto'}>
