@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Container from 'components/Container';
 import AppRegistrationRoundedIcon from '@mui/icons-material/AppRegistrationRounded';
+import Nominations from 'pages/nominations';
 
 const Hero = (): JSX.Element => {
   const theme = useTheme();
@@ -95,7 +96,7 @@ const Hero = (): JSX.Element => {
               >
                 <Button
                   component={'a'}
-                  href={'/nomination'}
+                  href=""
                   variant="outlined"
                   color="secondary"
                   size="large"

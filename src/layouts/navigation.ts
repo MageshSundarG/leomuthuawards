@@ -107,6 +107,10 @@ const pages = {
       href: '/event-terms',
     },
     {
+      title: 'Nominations',
+      href: '/nominations',
+    },
+    {
       title: 'Contact: Map',
       href: '/contact-sidebar-map',
     },
