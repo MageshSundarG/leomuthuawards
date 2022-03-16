@@ -57,6 +57,11 @@ const mock = [
       <div><b>11.</b> For any queries you can reach the Organizers through mail and phone call.</div>,
     description: '',
   },
+  {
+    title:
+    <iframe src="https://onedrive.live.com/embed?cid=145F64F804D3A323&resid=145F64F804D3A323%21411&authkey=AE0HBtLYqgVNpW0&em=2" width="100%" height="1200" frameborder="0" scrolling="no"></iframe>,
+    description: '',
+  },
 ];
 
 const PrivacySection = ({

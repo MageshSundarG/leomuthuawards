@@ -17,6 +17,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import SimpleStriped from 'views/SimpleStriped/SimpleStriped';
 import Container from 'components/Container';
+import { FormatAlignJustify } from '@mui/icons-material';
 
 const mock = [
   {
@@ -72,6 +73,7 @@ const Process = (): JSX.Element => {
           variant="h5"
           sx={{ fontWeight: 700 }}
           color={theme.palette.secondary.dark}
+          align = {'justify'}
         >
           Celebrating 70th Birth Anniversary of Our Founder Chairman Shri M.J.F.Ln Leo
           Muthu on April 2nd 2022

@@ -74,12 +74,12 @@ const FeatureCardWithCtaButton = (): JSX.Element => {
               </Box>
               <Grid container spacing={1}>
                 {[
-                  'Government & Aided Higher Secondary Schools',
+                  'Government & Government Aided Higher Secondary Schools',
                   'Matriculation Schools',
                   'CBSE Schools',
                   'International Schools',
                 ].map((item, i) => (
-                  <Grid item xs={12} sm={6} key={i}>
+                  <Grid item xs={12} sm={11} key={i}>
                     <Box
                       component={ListItem}
                       disableGutters
@@ -120,8 +120,9 @@ const FeatureCardWithCtaButton = (): JSX.Element => {
             </Grid>
             <Grid item container alignItems={'center'} xs={12} md={6}>
               <Box
-                borderLeft={{ xs: 0, sm: `1px solid ${theme.palette.divider}` }}
+                //borderLeft={{ xs: 0, sm: `1px solid ${theme.palette.divider}`}}
                 paddingLeft={{ xs: 0, sm: 4 }}
+                paddingTop = {{xs: 0, sm: 10}}
               >
                 <RightSide />
               </Box>
