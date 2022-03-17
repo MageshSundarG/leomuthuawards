@@ -76,6 +76,18 @@ const Topbar = ({ pages, colorInvert = false }: Props): JSX.Element => {
               <Link
                 underline="none"
                 component="a"
+                href="/nominations"
+                color={colorInvert ? 'common.white' : 'text.primary'}
+              >
+                Nominations
+              </Link>
+            </MenuItem>
+          </Box>
+          <Box>
+            <MenuItem>
+              <Link
+                underline="none"
+                component="a"
                 href="/event-terms"
                 color={colorInvert ? 'common.white' : 'text.primary'}
               >
@@ -142,7 +154,17 @@ const Topbar = ({ pages, colorInvert = false }: Props): JSX.Element => {
                   href="/event-terms"
                   color="text.primary"
                 >
-                  Terms
+                  Terms & Conditions
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link
+                  underline="none"
+                  component="a"
+                  href="/nominations"
+                  color="text.primary"
+                >
+                  Nominations
                 </Link>
               </MenuItem>
             </Menu>

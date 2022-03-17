@@ -40,17 +40,17 @@ const Footer = (): JSX.Element => {
             />
           </Box>
           <Box display="flex" flexWrap={'wrap'} alignItems={'center'}>
-            {/* <Box marginTop={1} marginRight={2}>
+            <Box marginTop={1} marginRight={2}>
               <Link
                 underline="none"
                 component="a"
-                href="/"
+                href="/nominations"
                 color="text.primary"
                 variant={'subtitle2'}
               >
-                Home
+                Nominations
               </Link>
-            </Box> */}
+            </Box>
             <Box marginTop={1} marginRight={2}>
               <Link
                 underline="none"
