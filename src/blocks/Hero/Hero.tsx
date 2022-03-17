@@ -4,10 +4,8 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Grid';
 import Container from 'components/Container';
 import AppRegistrationRoundedIcon from '@mui/icons-material/AppRegistrationRounded';
-import Nominations from 'pages/nominations';
 
 const Hero = (): JSX.Element => {
   const theme = useTheme();
@@ -96,7 +94,7 @@ const Hero = (): JSX.Element => {
               >
                 <Button
                   component={'a'}
-                  href="/comingsoon"
+                  href="/nominations"
                   variant="outlined"
                   color="secondary"
                   size="large"
