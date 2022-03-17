@@ -15,17 +15,6 @@ const Nominations = (): JSX.Element => {
   const router = useRouter();
   const [value, setValue] = React.useState('/');
 
-  // const handleChange = (event) => {
-  //   setBrightness(event.target.value);
-  // };
-
-  // const handleClick = (e) => {
-  //   e.preventDefault();
-  //   router.push(value);
-  // };
-
-  // const handleSubmit = (value) => {};
-
   return (
     <Container maxWidth={400}>
       <Box sx={{ minWidth: 120 }}>
@@ -33,9 +22,7 @@ const Nominations = (): JSX.Element => {
           Kalam - Leo Muthu Education Awards Nominations 2022
         </Typography>
         <FormControl fullWidth>
-          <InputLabel id="demo-simple-select-label">
-            Screen brightness
-          </InputLabel>
+          <InputLabel id="demo-simple-select-label">Nominations</InputLabel>
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"
@@ -45,70 +32,54 @@ const Nominations = (): JSX.Element => {
               setValue(e.target.value);
             }}
           >
-            <MenuItem value="hello">
+            <MenuItem value={1}>
               <Box display={'flex'} alignItems={'center'}>
-                <Box
-                  component={'svg'}
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={20}
-                  height={20}
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  marginRight={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                  />
-                </Box>
-                <Typography>Light</Typography>
+                <Typography>Best School</Typography>
               </Box>
             </MenuItem>
-            <MenuItem value={20}>
+            <MenuItem value={2}>
               <Box display={'flex'} alignItems={'center'}>
-                <Box
-                  component={'svg'}
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={20}
-                  height={20}
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  marginRight={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-                  />
-                </Box>
-                <Typography>Dark</Typography>
+                <Typography>Best Principal</Typography>
               </Box>
             </MenuItem>
-            <MenuItem value={30}>
+            <MenuItem value={3}>
               <Box display={'flex'} alignItems={'center'}>
-                <Box
-                  component={'svg'}
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={20}
-                  height={20}
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  marginRight={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                  />
-                </Box>
-                <Typography>System</Typography>
+                <Typography>Best Teacher - English</Typography>
+              </Box>
+            </MenuItem>
+            <MenuItem value={4}>
+              <Box display={'flex'} alignItems={'center'}>
+                <Typography>Best Teacher - Zoology</Typography>
+              </Box>
+            </MenuItem>
+            <MenuItem value={5}>
+              <Box display={'flex'} alignItems={'center'}>
+                <Typography>Best Teacher - Mathematics</Typography>
+              </Box>
+            </MenuItem>
+            <MenuItem value={6}>
+              <Box display={'flex'} alignItems={'center'}>
+                <Typography>Best Teacher - Computer Science</Typography>
+              </Box>
+            </MenuItem>
+            <MenuItem value={7}>
+              <Box display={'flex'} alignItems={'center'}>
+                <Typography>Best Teacher - Physics</Typography>
+              </Box>
+            </MenuItem>
+            <MenuItem value={8}>
+              <Box display={'flex'} alignItems={'center'}>
+                <Typography>Best Teacher - Botany</Typography>
+              </Box>
+            </MenuItem>
+            <MenuItem value={9}>
+              <Box display={'flex'} alignItems={'center'}>
+                <Typography>Best Teacher - Tamil</Typography>
+              </Box>
+            </MenuItem>
+            <MenuItem value={10}>
+              <Box display={'flex'} alignItems={'center'}>
+                <Typography>Best Teacher - Chemistry</Typography>
               </Box>
             </MenuItem>
           </Select>
