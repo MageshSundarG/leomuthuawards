@@ -46,22 +46,38 @@ const Nominations = (): JSX.Element => {
                 <Typography>Best Principal</Typography>
               </Box>
             </MenuItem>
-            <MenuItem value={3}>
+            <MenuItem
+              value={
+                'https://airtable.com/embed/shrtRoNB9Ik9ezoJC?backgroundColor=cyan'
+              }
+            >
               <Box display={'flex'} alignItems={'center'}>
                 <Typography>Best Teacher - English</Typography>
               </Box>
             </MenuItem>
-            <MenuItem value={4}>
+            <MenuItem
+              value={
+                'https://airtable.com/embed/shrIBNyEgJ1ZGwf9u?backgroundColor=cyan'
+              }
+            >
               <Box display={'flex'} alignItems={'center'}>
                 <Typography>Best Teacher - Zoology</Typography>
               </Box>
             </MenuItem>
-            <MenuItem value={5}>
+            <MenuItem
+              value={
+                'https://airtable.com/embed/shrnPA3z5fYJmEzPV?backgroundColor=cyan'
+              }
+            >
               <Box display={'flex'} alignItems={'center'}>
                 <Typography>Best Teacher - Mathematics</Typography>
               </Box>
             </MenuItem>
-            <MenuItem value={6}>
+            <MenuItem
+              value={
+                'https://airtable.com/embed/shrfr7RClpGVb7KVm?backgroundColor=cyan'
+              }
+            >
               <Box display={'flex'} alignItems={'center'}>
                 <Typography>Best Teacher - Computer Science</Typography>
               </Box>
@@ -71,12 +87,20 @@ const Nominations = (): JSX.Element => {
                 <Typography>Best Teacher - Physics</Typography>
               </Box>
             </MenuItem>
-            <MenuItem value={8}>
+            <MenuItem
+              value={
+                'https://airtable.com/embed/shrluNLCjRdxqevAN?backgroundColor=cyan'
+              }
+            >
               <Box display={'flex'} alignItems={'center'}>
                 <Typography>Best Teacher - Botany</Typography>
               </Box>
             </MenuItem>
-            <MenuItem value={9}>
+            <MenuItem
+              value={
+                'https://airtable.com/embed/shrUIXfFXRKk3I95R?backgroundColor=cyan'
+              }
+            >
               <Box display={'flex'} alignItems={'center'}>
                 <Typography>Best Teacher - Tamil</Typography>
               </Box>
