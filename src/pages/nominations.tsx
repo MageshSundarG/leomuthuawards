@@ -37,7 +37,11 @@ const Nominations = (): JSX.Element => {
                 <Typography>Best School</Typography>
               </Box>
             </MenuItem>
-            <MenuItem value={2}>
+            <MenuItem
+              value={
+                'https://airtable.com/embed/shr09Yz9VWsgDdTPc?backgroundColor=cyan'
+              }
+            >
               <Box display={'flex'} alignItems={'center'}>
                 <Typography>Best Principal</Typography>
               </Box>
@@ -86,7 +90,7 @@ const Nominations = (): JSX.Element => {
           <Grid item container justifyContent={'center'} xs={12} mt={3}>
             <Button
               sx={{ height: 54, minWidth: 150 }}
-              onClick={() => router.push(`/${value}`)}
+              onClick={() => router.push(`${value}`)}
               variant="contained"
               color="primary"
               size="medium"
