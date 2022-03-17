@@ -6,7 +6,8 @@ import Typography from '@mui/material/Typography';
 
 import Main from 'layouts/Main';
 import Container from 'components/Container';
-import { ContactCard, Content } from './components';
+import ContactCard from 'components/ContactCard';
+import Content from 'components/Content';
 
 const CompanyTerms = (): JSX.Element => {
   const theme = useTheme();
