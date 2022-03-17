@@ -93,7 +93,7 @@ const Nominations = (): JSX.Element => {
               type="submit"
               fullWidth
             >
-              Submit
+              Next
             </Button>
           </Grid>
         </FormControl>
