@@ -41,7 +41,9 @@ const Nominations = (): JSX.Element => {
             Kalam - Leo Muthu Education Awards Nominations 2022
           </Typography>
           <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">Nominations 2022</InputLabel>
+            <InputLabel id="demo-simple-select-label">
+              Nominations 2022
+            </InputLabel>
             <Select
               labelId="demo-simple-select-label"
               id="demo-simple-select"
@@ -51,11 +53,15 @@ const Nominations = (): JSX.Element => {
                 setValue(e.target.value);
               }}
             >
-              {/* <MenuItem value={1}>
+              <MenuItem
+                value={
+                  'https://airtable.com/embed/shrx2Qr9Vu1gcodmu?backgroundColor=cyan'
+                }
+              >
                 <Box display={'flex'} alignItems={'center'}>
                   <Typography>Best School</Typography>
                 </Box>
-              </MenuItem> */}
+              </MenuItem>
               <MenuItem
                 value={
                   'https://airtable.com/embed/shrQYYaSIUWJfMUZk?backgroundColor=cyan'
@@ -74,43 +80,31 @@ const Nominations = (): JSX.Element => {
                   <Typography>Best Teacher - English</Typography>
                 </Box>
               </MenuItem>
-              {/* <MenuItem
-                value={
-                  'https://airtable.com/embed/shrIBNyEgJ1ZGwf9u?backgroundColor=cyan'
-                }
-              >
+              <MenuItem value={' https://airtable.com/shrGM6hiKiyfc1LEG'}>
                 <Box display={'flex'} alignItems={'center'}>
                   <Typography>Best Teacher - Zoology</Typography>
                 </Box>
-              </MenuItem> */}
-              {/* <MenuItem
-                value={
-                  'https://airtable.com/embed/shrnPA3z5fYJmEzPV?backgroundColor=cyan'
-                }
-              >
+              </MenuItem>
+              <MenuItem value={'https://airtable.com/shr8eKLCnUm4VH34C'}>
                 <Box display={'flex'} alignItems={'center'}>
                   <Typography>Best Teacher - Mathematics</Typography>
                 </Box>
-              </MenuItem> */}
+              </MenuItem>
               <MenuItem value={'https://airtable.com/shrE6Shdz6jn0fXds'}>
                 <Box display={'flex'} alignItems={'center'}>
                   <Typography>Best Teacher - Computer Science</Typography>
                 </Box>
               </MenuItem>
-              {/* <MenuItem value={7}>
+              <MenuItem value={'https://airtable.com/shrX9pZFtuf3WzCMU'}>
                 <Box display={'flex'} alignItems={'center'}>
                   <Typography>Best Teacher - Physics</Typography>
                 </Box>
-              </MenuItem> */}
-              {/* <MenuItem
-                value={
-                  'https://airtable.com/embed/shrluNLCjRdxqevAN?backgroundColor=cyan'
-                }
-              >
+              </MenuItem>
+              <MenuItem value={'https://airtable.com/shrGceXWWhENpz7wE'}>
                 <Box display={'flex'} alignItems={'center'}>
                   <Typography>Best Teacher - Botany</Typography>
                 </Box>
-              </MenuItem> */}
+              </MenuItem>
               <MenuItem
                 value={
                   'https://airtable.com/embed/shr2RP4LM8npn56J3?backgroundColor=cyan'
@@ -120,15 +114,11 @@ const Nominations = (): JSX.Element => {
                   <Typography>Best Teacher - Tamil</Typography>
                 </Box>
               </MenuItem>
-              {/* <MenuItem
-                value={
-                  'https://airtable.com/embed/shr9zfyERyKuut5AR?backgroundColor=cyan'
-                }
-              >
+              <MenuItem value={'https://airtable.com/shr9s3i02UIoX3Tr4'}>
                 <Box display={'flex'} alignItems={'center'}>
                   <Typography>Best Teacher - Chemistry</Typography>
                 </Box>
-              </MenuItem> */}
+              </MenuItem>
             </Select>
             <Grid item container justifyContent={'center'} xs={12} mt={3}>
               <Button
