@@ -81,7 +81,11 @@ const Nominations = (): JSX.Element => {
                 <Typography>Best Teacher - Tamil</Typography>
               </Box>
             </MenuItem>
-            <MenuItem value={10}>
+            <MenuItem
+              value={
+                'https://airtable.com/embed/shr9zfyERyKuut5AR?backgroundColor=cyan'
+              }
+            >
               <Box display={'flex'} alignItems={'center'}>
                 <Typography>Best Teacher - Chemistry</Typography>
               </Box>
