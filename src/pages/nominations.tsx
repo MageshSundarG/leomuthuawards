@@ -41,7 +41,7 @@ const Nominations = (): JSX.Element => {
             Kalam - Leo Muthu Education Awards Nominations 2022
           </Typography>
           <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">Nominations</InputLabel>
+            <InputLabel id="demo-simple-select-label">Nominations 2022</InputLabel>
             <Select
               labelId="demo-simple-select-label"
               id="demo-simple-select"
