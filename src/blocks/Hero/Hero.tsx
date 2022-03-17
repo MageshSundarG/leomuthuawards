@@ -96,7 +96,7 @@ const Hero = (): JSX.Element => {
               >
                 <Button
                   component={'a'}
-                  href="/nominations"
+                  href="/comingsoon"
                   variant="outlined"
                   color="secondary"
                   size="large"

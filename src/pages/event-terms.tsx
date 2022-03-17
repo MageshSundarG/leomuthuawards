@@ -25,7 +25,7 @@ const CompanyTerms = (): JSX.Element => {
                   color: theme.palette.common.white,
                 }}
               >
-                Event's Terms & Conditions
+                Event&apos;s Terms & Conditions
               </Typography>
               {/* <Typography
                 gutterBottom

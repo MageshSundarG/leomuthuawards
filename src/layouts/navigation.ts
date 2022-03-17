@@ -111,6 +111,10 @@ const pages = {
       href: '/nominations',
     },
     {
+      title: 'Coming Soon',
+      href: '/comingsoon',
+    },
+    {
       title: 'Contact: Map',
       href: '/contact-sidebar-map',
     },
