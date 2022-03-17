@@ -40,7 +40,7 @@ const Footer = (): JSX.Element => {
             />
           </Box>
           <Box display="flex" flexWrap={'wrap'} alignItems={'center'}>
-            <Box marginTop={1} marginRight={2}>
+            <Box marginTop={1} marginRight={1}>
               <Link
                 underline="none"
                 component="a"
