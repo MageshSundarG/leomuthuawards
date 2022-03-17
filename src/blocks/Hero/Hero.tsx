@@ -71,11 +71,27 @@ const Hero = (): JSX.Element => {
               Tamilnadu.
             </Typography>
             <Box
+            display="flex"
+            flexDirection={{ xs: 'column', sm: 'row' }}
+            alignItems={{ xs: 'stretched', sm: 'flex-start' }}
+            marginTop={4}
+            >
+              <Typography
+              variant="h5"
+              component="p"
+              color={theme.palette.secondary.main}
+              sx={{ fontWeight: 700 }}
+            >
+              Registration Free
+            </Typography>
+            </Box>
+            <Box
               display="flex"
               flexDirection={{ xs: 'column', sm: 'row' }}
               alignItems={{ xs: 'stretched', sm: 'flex-start' }}
               marginTop={4}
             >
+              
               <Button
                 component={'a'}
                 variant="contained"
