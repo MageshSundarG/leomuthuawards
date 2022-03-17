@@ -51,7 +51,7 @@ const Footer = (): JSX.Element => {
                 Nominations
               </Link>
             </Box>
-            <Box marginTop={1} marginRight={2}>
+            <Box marginTop={1} marginRight={1}>
               <Link
                 underline="none"
                 component="a"
