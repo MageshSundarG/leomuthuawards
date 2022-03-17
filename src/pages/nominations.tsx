@@ -20,7 +20,9 @@ const Nominations = (): JSX.Element => {
   return (
     <Container maxWidth={400}>
       <Box sx={{ minWidth: 120 }}>
-        <Typography marginBottom={4}>Choose from the nomination given below</Typography>
+        <Typography marginBottom={4}>
+          Kalam - Leo Muthu Education Awards Nominations 2022
+        </Typography>
         <FormControl fullWidth>
           <InputLabel id="demo-simple-select-label">
             Nominations
