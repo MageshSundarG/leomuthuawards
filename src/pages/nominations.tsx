@@ -1,4 +1,5 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
@@ -7,13 +8,23 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 import Container from 'components/Container';
+import Button from '@mui/material/Button';
+import Grid from '@mui/material/Grid';
 
 const Nominations = (): JSX.Element => {
-  const [brightness, setBrightness] = React.useState(10);
+  const router = useRouter();
+  const [value, setValue] = React.useState('/');
 
-  const handleChange = (event) => {
-    setBrightness(event.target.value);
-  };
+  // const handleChange = (event) => {
+  //   setBrightness(event.target.value);
+  // };
+
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+  //   router.push(value);
+  // };
+
+  // const handleSubmit = (value) => {};
 
   return (
     <Container maxWidth={400}>
@@ -28,11 +39,13 @@ const Nominations = (): JSX.Element => {
           <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"
-            value={brightness}
             label="Screen brightness"
-            onChange={handleChange}
+            value={value}
+            onChange={(e) => {
+              setValue(e.target.value);
+            }}
           >
-            <MenuItem value={10}>
+            <MenuItem value="hello">
               <Box display={'flex'} alignItems={'center'}>
                 <Box
                   component={'svg'}
@@ -99,6 +112,19 @@ const Nominations = (): JSX.Element => {
               </Box>
             </MenuItem>
           </Select>
+          <Grid item container justifyContent={'center'} xs={12} mt={3}>
+            <Button
+              sx={{ height: 54, minWidth: 150 }}
+              onClick={() => router.push(`/${value}`)}
+              variant="contained"
+              color="primary"
+              size="medium"
+              type="submit"
+              fullWidth
+            >
+              Submit
+            </Button>
+          </Grid>
         </FormControl>
       </Box>
     </Container>
