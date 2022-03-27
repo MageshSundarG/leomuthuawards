@@ -40,12 +40,12 @@ const comingsoon = (): JSX.Element => {
               <Container>
                 <Box>
                   <Typography
-                    variant="h1"
-                    component={'h1'}
+                    variant="h3"
+                    component={'h3'}
                     align={isMd ? 'left' : 'center'}
-                    sx={{ fontWeight: 700 }}
+                    sx={{ fontWeight: 600 }}
                   >
-                    Coming Soon!
+                    Registrations are closed!. Thanks for the overwhelming response.
                   </Typography>
                   <Box
                     marginTop={4}

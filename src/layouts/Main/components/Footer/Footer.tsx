@@ -44,7 +44,7 @@ const Footer = (): JSX.Element => {
               <Link
                 underline="none"
                 component="a"
-                href="/nominations"
+                href="/comingsoon"
                 color="text.primary"
                 variant={'subtitle2'}
               >
@@ -68,7 +68,7 @@ const Footer = (): JSX.Element => {
                 color="primary"
                 component="a"
                 target="blank"
-                href="https://leomuthuawards.netlify.app/"
+                href="/comingsoon"
                 size="small"
                 startIcon={<AppRegistrationRoundedIcon />}
               >

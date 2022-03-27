@@ -76,7 +76,7 @@ const Topbar = ({ pages, colorInvert = false }: Props): JSX.Element => {
               <Link
                 underline="none"
                 component="a"
-                href="/nominations"
+                href="/comingsoon"
                 color={colorInvert ? 'common.white' : 'text.primary'}
               >
                 Nominations
@@ -161,7 +161,7 @@ const Topbar = ({ pages, colorInvert = false }: Props): JSX.Element => {
                 <Link
                   underline="none"
                   component="a"
-                  href="/nominations"
+                  href="/comingsoon"
                   color="text.primary"
                 >
                   Nominations
@@ -176,7 +176,7 @@ const Topbar = ({ pages, colorInvert = false }: Props): JSX.Element => {
             color="primary"
             component="a"
             target="blank"
-            href="https://leomuthuawards.netlify.app/"
+            href="/comingsoon"
             size="large"
             startIcon={<AppRegistrationRoundedIcon />}
           >

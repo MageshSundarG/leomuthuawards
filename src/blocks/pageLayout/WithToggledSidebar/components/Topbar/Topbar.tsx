@@ -150,7 +150,7 @@ const Topbar = (): JSX.Element => {
             color="primary"
             component="a"
             target="blank"
-            href="https://leomuthuawards.netlify.app/"
+            href="/comingsoon"
             size="large"
             startIcon={
               <svg
