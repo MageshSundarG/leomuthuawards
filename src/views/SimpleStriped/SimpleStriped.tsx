@@ -20,11 +20,11 @@ const mock = [
     process: 'Notification Mail',
   },
   {
-    dates: '30.03.2022',
+    dates: '05.04.2022',
     process: 'Confirmation of Participation',
   },
   {
-    dates: '02.04.2022',
+    dates: '09.04.2022',
     process: <div>Award Function <br />Venue : Sairam College Campus</div>,
   },
 ];

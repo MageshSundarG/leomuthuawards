@@ -76,7 +76,7 @@ const Process = (): JSX.Element => {
           align = {'justify'}
         >
           Celebrating 70th Birth Anniversary of Our Founder Chairman Shri M.J.F.Ln Leo
-          Muthu on April 2nd 2022
+          Muthu on April 9th 2022
         </Typography>
       </Box>
       <Typography variant="subtitle2" component="p" color="text.secondary">

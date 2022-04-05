@@ -23,7 +23,7 @@ const mock = [
     icon: <EmojiEventsRoundedIcon />,
   },
   {
-    title: 'Exciting Prizes which includes TAB',
+    title: 'Exciting Prizes',
     subtitle: '',
     icon: <TabletAndroidRoundedIcon />,
   },
